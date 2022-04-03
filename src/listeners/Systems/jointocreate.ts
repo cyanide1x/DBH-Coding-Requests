@@ -14,8 +14,8 @@ export class UserEvent extends Listener {
         const { member, guild } = newState;
         const oldChannel = oldState.channel;
         const newChannel = newState.channel;
-        const jtcChannel = '951271226746220584';
-        const channelName = member?.user.tag
+        const jtcChannel = '925784504784801892';
+        const channelName = member?.nickname + "'s Channel"
         const ownedChannel = this.container.client.voiceGenerator.get(member?.id)
 
         if(ownedChannel && newChannel?.id == jtcChannel && (newChannel?.id !== ownedChannel)) {

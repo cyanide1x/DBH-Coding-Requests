@@ -19,11 +19,13 @@
     "@sapphire/time-utilities": "^1.5.2",
     "@sapphire/type": "^2.1.2",
     "@sapphire/utilities": "^3.2.1",
+    "@types/mongoose": "^5.11.97",
     "cpu-stat": "^2.0.1",
     "discord.js": "^13.6.0",
     "dotenv-cra": "^3.0.2",
     "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
+    "mongoose": "^6.2.6",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
